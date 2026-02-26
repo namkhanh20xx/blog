@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Chào mừng đến với Project Docs on My New Hugo Site</title>
+    <title>Chào mừng đến với namkhanh20xx blog on namkhanh20xx blog</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Chào mừng đến với Project Docs on My New Hugo Site</description>
+    <description>Recent content in Chào mừng đến với namkhanh20xx blog on namkhanh20xx blog</description>
     <generator>Hugo -- 0.154.3</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 26 Feb 2026 11:19:17 +0700</lastBuildDate>
+    <language>vi-vn</language>
+    <lastBuildDate>Thu, 26 Feb 2026 11:44:19 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Post</title>
-      <link>http://localhost:1313/posts/first-post/</link>
-      <pubDate>Thu, 26 Feb 2026 11:19:17 +0700</pubDate>
-      <guid>http://localhost:1313/posts/first-post/</guid>
-      <description></description>
+      <title>Fcitx5 for Macos</title>
+      <link>http://localhost:1313/posts/2026/02/fcitx5-for-macos/</link>
+      <pubDate>Thu, 26 Feb 2026 11:44:19 +0700</pubDate>
+      <guid>http://localhost:1313/posts/2026/02/fcitx5-for-macos/</guid>
+      <description>&lt;h1 id=&#34;installation&#34;&gt;Installation&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/fcitx/fcitx5-macos&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;lệnh tải &lt;a href=&#34;https://github.com/fcitx-contrib/fcitx5-macos-installer/blob/master/README.zh-CN.md&#34;&gt;url&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd /tmp &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; rm -rf Fcitx5Installer.app &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; curl -LO https://github.com/fcitx-contrib/fcitx5-macos-installer/releases/download/latest/Fcitx5Installer.zip &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; unzip Fcitx5Installer.zip &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; open Fcitx5Installer.app
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;pros-and-cons&#34;&gt;Pros and cons&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Instead of using tools like Unikey, EVKey, or Bamboo, using Fcitx5 feels more native. It is similar to the built-in macOS keyboard, allowing you to switch languages using the default macOS keyboard shortcuts.&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
