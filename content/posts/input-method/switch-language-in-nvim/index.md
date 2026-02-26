@@ -1,6 +1,6 @@
 +++
 date = '2026-02-26T15:40:03+07:00'
-draft = true
+draft = false
 title = 'Switch Language in Nvim'
 summary = 'Lua code to automate switching languages in Neovim'
 +++
