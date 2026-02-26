@@ -2,3 +2,10 @@ baseURL = 'https://namkhanh20xx-blog.vercel.app/'
 languageCode = 'vi-vn'
 title = 'namkhanh20xx blog'
 theme = 'PaperMod'
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    style = "monokai"
