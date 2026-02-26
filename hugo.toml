@@ -3,13 +3,5 @@ languageCode = 'vi-vn'
 title = 'namkhanh20xx blog'
 theme = 'PaperMod'
 enableGitInfo = true
-[frontmatter]
-  lastmod = ["lastmod", ":git", "date"]
 [params]
   showDescription = true
-[markup]
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = true
-    lineNos = false
-    style = "monokai"
