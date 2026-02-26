@@ -1,7 +1,7 @@
 baseURL = 'https://namkhanh20xx-blog.vercel.app/'
 languageCode = 'vi-vn'
 title = 'namkhanh20xx blog'
-theme = 'hugo-coder'
+theme = 'PaperMod'
 enableGitInfo = true
 [params]
   showDescription = true
