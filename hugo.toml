@@ -2,7 +2,8 @@ baseURL = 'https://namkhanh20xx-blog.vercel.app/'
 languageCode = 'vi-vn'
 title = 'namkhanh20xx blog'
 theme = 'PaperMod'
-
+[params]
+  showDescription = true
 [markup]
   [markup.highlight]
     codeFences = true
