@@ -2,6 +2,9 @@ baseURL = 'https://namkhanh20xx-blog.vercel.app/'
 languageCode = 'vi-vn'
 title = 'namkhanh20xx blog'
 theme = 'PaperMod'
+enableGitInfo = true
+[frontmatter]
+  lastmod = ["lastmod", ":git", "date"]
 [params]
   showDescription = true
 [markup]
