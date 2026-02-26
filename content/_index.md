@@ -1,5 +1,6 @@
 ---
-title: "Chào mừng đến với namkhanh20xx blog"
-description: "Lưu mấy cái note"
+title: "Welcome to namkhanh20xx blog"
+description: "Keeping some notes"
 ---
-# Chào mừng!
+# Welcome!
+My name is Le Nam Khanh
