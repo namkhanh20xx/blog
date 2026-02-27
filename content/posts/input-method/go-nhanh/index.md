@@ -5,10 +5,39 @@ title = 'Go Nhanh'
 +++
 
 1 tool rất đẳng cấp để gõ tiếng việt trên terminal, nó fix được lỗi hộp đen che chữ (Pre-edit Window) khi gõ
-và một số [issue](https://github.com/khaphanspace/gonhanh.org/blob/41e7bf609566e29bbfa8b8390740ce57e751acaf/docs/common-issues.md) 
+và một số [issue](https://github.com/khaphanspace/gonhanh.org/blob/41e7bf609566e29bbfa8b8390740ce57e751acaf/docs/common-issues.md)
+
 ## BUG
-1 bug nhỏ là nếu dùng trong brave với extension surfingkey thì nếu gõ oo ( tôi gán phím tắt cho lệnh này thi nó không ra vì oo-> ô), lỗi này fix được khi dùng fcitx5-for-macos chạy unikey. 
+
+1 bug nhỏ là nếu dùng trong brave với extension surfingkey thì nếu gõ oo ( tôi gán phím tắt cho lệnh này thi nó không ra vì oo-> ô), lỗi này fix được khi dùng fcitx5-for-macos chạy unikey.
 gonhanh chưa dùng lệnh để thay đổi ngôn ngữ như trên macism được nên vẫn hơi tù nếu code bằng nvim
 
 # ideal:
+
 tôi sẽ cấu hình để khi mở U+ thì sẽ chạy GoNhanh còn không thì sẽ tắt đi, từ đó xem như nó là một ngôn ngữ hệ thống ( settings này sử dụng hammerspoon để làm )
+
+# Save:
+
+tôi lưu code lệnh `gn` thay đổi code gõ nhanh bằng cli:
+
+```bash
+  #!/bin/bash
+  APP_ID="org.gonhanh.GoNhanh"
+
+  case "$1" in
+      1)
+          defaults write $APP_ID "gonhanh.enabled" -bool true
+          killall GoNhanh 2>/dev/null; open -g -a GoNhanh
+          echo "1"
+          ;;
+      0)
+          defaults write $APP_ID "gonhanh.enabled" -bool false
+          killall GoNhanh 2>/dev/null; open -g -a GoNhanh
+          echo "0"
+          ;;
+      *)
+          defaults read $APP_ID "gonhanh.enabled" 2>/dev/null || echo "1"
+          ;;
+  esac
+
+```
